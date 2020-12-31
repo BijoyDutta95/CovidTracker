@@ -19,6 +19,7 @@ class App extends React.Component{
     return (
       <div className={styles.globalContainer}>
         <Cards data={data}/>
+        <CountryPicker/>
         <Chart/>
         <CountryPicker/>
       </div>

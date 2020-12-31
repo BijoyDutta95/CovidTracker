@@ -37,7 +37,7 @@ const Chart = () => {
         />):null
     );
     return (
-        <div className={styles.container}>
+        <div className={styles.globalContainer}>
             {lineChart}
         </div>
     )
